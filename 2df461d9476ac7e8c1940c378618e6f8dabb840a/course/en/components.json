@@ -1,0 +1,1207 @@
+[
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "<p>TEST TEST TEST</p>",
+    "_id": "60db14454e98473e7dc59fbd",
+    "_parentId": "60db14444e98473e7dc59fbc",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "dragndropwithimage",
+    "_classes": "body {background-color: lightgrey;   color: blue; }",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 1,
+    "_disableAccessibilityState": false,
+    "title": "Match Dogs",
+    "displayTitle": "Match Dogs",
+    "body": "<p>Match the breed to the image</p>",
+    "_id": "60fed01f4e98473e7dc5a17e",
+    "_parentId": "60fece2c4e98473e7dc5a174",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "body {background-color: coral;}",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "Berger Picard",
+        "accepted": [
+          {
+            "description": "Picture of brown scruffy looking dog",
+            "src": "course/en/assets/ff838d9e33153c0d446b0d8ed6ae3163ca7c362f.jpg"
+          }
+        ],
+        "_graphic": {
+          "alt": "Box to drag answer for Berger Picard into",
+          "src": "course/en/assets/f855a57fcaf12401fea9726d8390419bdea77b1d.png"
+        },
+        "_classes": ""
+      },
+      {
+        "text": "Rough Collie",
+        "accepted": [
+          {
+            "description": "",
+            "src": "course/en/assets/2e8f617b204e6f5bad882a7795d58b760f0b6393.jpg"
+          }
+        ],
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/f855a57fcaf12401fea9726d8390419bdea77b1d.png"
+        },
+        "_classes": ""
+      },
+      {
+        "text": "Corgi",
+        "accepted": [
+          {
+            "description": "",
+            "src": "course/en/assets/4ef0b728aa1183666b316dbab29c8526725478d6.jfif"
+          }
+        ],
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/f855a57fcaf12401fea9726d8390419bdea77b1d.png"
+        },
+        "_classes": ""
+      },
+      {
+        "text": "Chow Chow",
+        "accepted": [
+          {
+            "description": "",
+            "src": "course/en/assets/95632a647633cd8021d3a72595697e3e29b11356.jpg"
+          }
+        ],
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/f855a57fcaf12401fea9726d8390419bdea77b1d.png"
+        },
+        "_classes": ""
+      },
+      {
+        "text": "Person",
+        "accepted": [
+          {
+            "description": "",
+            "src": "course/en/assets/ba2566812483490a807a1d9ccc55c11367d47a93.jpg"
+          }
+        ],
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/f855a57fcaf12401fea9726d8390419bdea77b1d.png"
+        },
+        "_classes": ""
+      },
+      {
+        "text": "squirell",
+        "accepted": [
+          {
+            "description": "",
+            "src": "course/en/assets/ced7e18b8ad5d87689c8c12e19e0b69c7f022728.jpg"
+          },
+          {
+            "description": "",
+            "src": "course/en/assets/8f273220d596f00e4c58b42b4c92896ab0987ef3.png"
+          }
+        ],
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/191101c67f6ff2aab52bdd75e6c20a0a9445cd5b.jpg"
+        },
+        "_classes": ""
+      }
+    ],
+    "dummyAnswers": [],
+    "_minHeight": null,
+    "_outofSpace": "Correct",
+    "_attempts": 1,
+    "_bounceBack": true,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_feedback": {
+      "correct": "<p>This Heading is Black with White Text</p><p>This page has a grey background color and a blue text.</p><p>Another paragraph.</p><p>p&gt;</p>",
+      "_incorrect": {
+        "final": "<p>Boo</p>",
+        "notFinal": "<p>Boo</p>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>Boo</p>",
+        "notFinal": "<p>Boo</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "dragndrop",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "610014d94e98473e7dc5a1f8",
+    "_parentId": "610014634e98473e7dc5a1f5",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "Hello",
+        "accepted": [
+          "World"
+        ]
+      }
+    ],
+    "dummyAnswers": [],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_feedback": {
+      "correct": "",
+      "_incorrect": {
+        "final": "",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "<p><a href=\"#60db14444e98473e7dc59fbb\">Return to Top</a></p>",
+    "_id": "610d37ca4e98473e7dc5a3e2",
+    "_parentId": "610d37c44e98473e7dc5a3e1",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Viewable inside Adapt",
+    "displayTitle": "Text Blocks",
+    "body": "<p>Text blocks will probably make up most of the content.</p><p>There's a variety of options from making text&nbsp;<strong>bold&nbsp;</strong>or <u>underlined</u>&nbsp;etc - remember accessibility.</p><p>Links can be added to internal and external content - see the training documentation.</p><p>Clicking \"Source\" will allow you to see the HTML code and add or make any changes needed there.</p><div style=\"background:#eee;border:1px solid #ccc;padding:5px 10px;\"><p>Choose the \"DIV &lt;/&gt;\" box to create a box like this - useful for quotes</p></div><div><ul><li>There's also options for bullet points</li><li>Like these</li><li>Ones</li></ul><p>Or even numbered lists</p><ol><li>Dogs</li><li>Cats</li><li>Llamas</li></ol><p>Tables can also be added - these can be tweaked with CSS to look nicer than this!</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\"><tbody><tr><td><strong>Animal</strong></td><td><strong>Rating</strong></td></tr><tr><td>Dog</td><td>10</td></tr><tr><td>Fish</td><td>2</td></tr></tbody></table><p>&nbsp;</p></div>",
+    "_id": "610d45e04e98473e7dc5a413",
+    "_parentId": "610d45d14e98473e7dc5a412",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "textinput",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "",
+    "body": "<p>Text Input Boxes can be used to ask users markable questions.</p><p>The answers should be accessible from within the Learning Hub as long as the Spoor extension is added to the course. Course Structure -&gt; Manage Extensions n.b Not tested yet!</p><p>Instruction is the question you wish to ask</p><p>Input Items are \"correct Items\"</p><p>Note these are case sensitive - try \"dog\" - it'll mark that incorrect but \"Dog\" correct.</p><p>Choose \"Allow 'any case' answers and Allow Punctuation to get around this.</p><p>Attempts is the number of goes someone gets</p><p>You can add feedback. Correct is when the answer is right.&nbsp;Incorrect Final - wrong and no more attempts, Incorrect Not Final - wrong but user has more attempts</p>",
+    "_id": "610d479f4e98473e7dc5a415",
+    "_parentId": "610d47964e98473e7dc5a414",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "What's the best animal?",
+    "_items": [
+      {
+        "_answers": [
+          "Cat",
+          "Dog",
+          "Hamster",
+          "cat"
+        ],
+        "prefix": "",
+        "suffix": "",
+        "placeholder": ""
+      }
+    ],
+    "_attempts": 10,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "title": "=",
+      "correct": "<p>Yes!</p>",
+      "_incorrect": {
+        "final": "<p>Not in the list of best animals :(</p>",
+        "notFinal": "<p>Not in the list of best animals try again</p>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>Partly Correct</p>",
+        "notFinal": "<p>Partly Correct NF</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "youtube",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "611138954e98473e7dc5a45c",
+    "_parentId": "611118864e98473e7dc5a452",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_setCompletionOn": "play",
+    "_media": {
+      "_source": "https://www.vibby.com/embed/vib?vib=XyVHP_Q5o&prePlayMenu=false",
+      "_controls": true,
+      "_allowFullscreen": true,
+      "_aspectRatio": "1.778",
+      "_autoplay": true,
+      "_showRelated": true,
+      "_loop": true,
+      "_modestBranding": true,
+      "_playbackQuality": "default",
+      "_showAnnotations": true,
+      "_progressColor": null
+    },
+    "_transcript": {
+      "_setCompletionOnView": true,
+      "_inlineTranscript": false,
+      "_externalTranscript": false,
+      "inlineTranscriptButton": "",
+      "inlineTranscriptCloseButton": "",
+      "inlineTranscriptBody": "",
+      "transcriptLinkButton": "",
+      "transcriptLink": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "center",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "<p>My text</p>",
+    "_id": "611a51374e98473e7dc5a535",
+    "_parentId": "611a51324e98473e7dc5a534",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "img",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "611a513d4e98473e7dc5a536",
+    "_parentId": "611a51324e98473e7dc5a534",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/c33fb2a09ddde87b3886dade305112a55e1bcedf.svg",
+      "small": "course/en/assets/c33fb2a09ddde87b3886dade305112a55e1bcedf.svg",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Accordion of Things",
+    "displayTitle": "Puppies",
+    "body": "",
+    "_id": "611cfefc4e98473e7dc5a5a1",
+    "_parentId": "611cfef64e98473e7dc5a5a0",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Click on each element to display more info",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Puppy",
+        "body": "<p>Dog</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Kitten",
+        "body": "<p>Cat</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Hamster",
+        "body": "<p>Cute!</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/f11392248db17dac0f281fe9e178e9bc414110f2.png",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_component": "media",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "hard",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "611d0aae4e98473e7dc5a5a6",
+    "_parentId": "611cff6e4e98473e7dc5a5a3",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_media": {
+      "mp4": "",
+      "ogv": "",
+      "webm": "",
+      "mp3": "course/en/assets/be41ffe28f65bc3dc65e4d3d285aa4b57c493c5b.mp3",
+      "source": "",
+      "type": "",
+      "poster": "",
+      "cc": []
+    },
+    "_setCompletionOn": "play",
+    "_useClosedCaptions": false,
+    "_startLanguage": "en",
+    "_showVolumeControl": false,
+    "_startVolume": "80%",
+    "_allowFullScreen": false,
+    "_pauseWhenOffScreen": false,
+    "_playsinline": false,
+    "_preventForwardScrubbing": false,
+    "_transcript": {
+      "_setCompletionOnView": false,
+      "_inlineTranscript": false,
+      "_externalTranscript": false,
+      "inlineTranscriptButton": "",
+      "inlineTranscriptCloseButton": "",
+      "inlineTranscriptBody": "",
+      "transcriptLinkButton": "",
+      "transcriptLink": ""
+    },
+    "_playerOptions": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "6123522f4e98473e7dc5a60b",
+    "_parentId": "612352294e98473e7dc5a60a",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/2bf7ece6c94e6b0614045fd18a288921078bc1cb.jpg",
+      "small": "course/en/assets/2bf7ece6c94e6b0614045fd18a288921078bc1cb.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "c_align_component",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "My Centered Component",
+    "displayTitle": "My Centered Component",
+    "body": "<p>This block has been altered using CSS</p>",
+    "_id": "61237b334e98473e7dc5a689",
+    "_parentId": "61237b2c4e98473e7dc5a688",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "",
+    "body": "<p>If the CSS code is successful this text should be aligned with the center of the image on the left.</p><p>It doesn't matter how many (or few) lines I use here.</p>",
+    "_id": "61237bad4e98473e7dc5a693",
+    "_parentId": "61237b354e98473e7dc5a68a",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "expose",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "612784d54e98473e7dc5a7d4",
+    "_parentId": "61277da24e98473e7dc5a7cf",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_columns": null,
+    "_animationType": "shrink",
+    "_items": [
+      {
+        "front": "?",
+        "back": {
+          "title": "",
+          "body": "<p>bmbm</p>",
+          "_graphic": {
+            "alt": "",
+            "src": ""
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_component": "imgMagnify",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "6130b9e94e98473e7dc5a82a",
+    "_parentId": "61237b354e98473e7dc5a68a",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "enableMagnify": true,
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/c5226aaa353a8a8a82964d793d62a4080fc9041c.png",
+      "small": "",
+      "attribution": ""
+    },
+    "_notifyopt": "button",
+    "_popupData": {
+      "mypopup": {
+        "title": "Title goes here",
+        "message": "<p>Message goes here</p>",
+        "copypaste": "<a href='#' id='mypopup'>copied popup link</a>"
+      }
+    },
+    "_alertData": {
+      "myalert": {
+        "title": "Title goes here",
+        "message": "<p>Message goes here</p>",
+        "confirmButton": "Continue",
+        "copypaste": "<a href='#' id='myalert'>copied alert link</a>"
+      }
+    },
+    "_externaLink": {
+      "": {
+        "copypaste": "<a href='path_to_my_document_goes_here' id='myexternalink' onclick=\"window.open(this.href, '','resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no,width=600,height=600'); return false;\">external link name</a>"
+      }
+    },
+    "_buttonData": {
+      "button": {
+        "classadd": false,
+        "copypaste": "Click Here",
+        "title": "Title goes here",
+        "message": "<p>Message goes here</p>",
+        "confirmButton": "Continue"
+      }
+    },
+    "bottomText": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "text box about blash",
+    "displayTitle": "",
+    "body": "<p>aslkdlsakd;lksalfck;sad</p><p>&nbsp;</p><p>a</p><p>&nbsp;</p><p>asd#asd</p><p>as</p><p>d</p><p>as</p><p>d</p><p>asd</p><p>as</p><p>d</p><p>asd</p><p>as</p><p>d</p><p>az\\</p>",
+    "_id": "6139c6164e98473e7dc5a850",
+    "_parentId": "6139c5e54e98473e7dc5a84f",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "blank",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "6139c9b84e98473e7dc5a854",
+    "_parentId": "6139c97b4e98473e7dc5a853",
+    "_type": "component",
+    "_layout": "full",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_component": "hotgraphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "615412b94e98473e7dc5a8cb",
+    "_parentId": "615412b14e98473e7dc5a8ca",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_graphic": {
+      "src": "course/en/assets/5f7f44aadca3fdf4a0b183b0ec53f9c9979980e7.png",
+      "alt": "",
+      "attribution": ""
+    },
+    "mobileBody": "",
+    "mobileInstruction": "",
+    "_hidePagination": false,
+    "_canCycleThroughPagination": false,
+    "_isNarrativeOnMobile": true,
+    "_useNumberedPins": false,
+    "_useGraphicsAsPins": false,
+    "_isRound": false,
+    "_items": []
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Text about cats",
+    "displayTitle": "All About Cats",
+    "body": "<p style=\"text-align: center;\"><strong>Cats</strong> are great!</p>",
+    "_id": "62136984e3d6f509c9f2c193",
+    "_parentId": "62136944e3d6f509c9f2c192",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Image of Cat",
+    "displayTitle": "",
+    "body": "<p>This is an image of a cat</p>",
+    "_id": "62136a01e3d6f509c9f2c195",
+    "_parentId": "62136944e3d6f509c9f2c192",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/3f230f0d6adca9369af167d3bfed8928d3696afd.png",
+      "small": "course/en/assets/3f230f0d6adca9369af167d3bfed8928d3696afd.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "blank",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "62136b37e3d6f509c9f2c199",
+    "_parentId": "62136b15e3d6f509c9f2c198",
+    "_type": "component",
+    "_layout": "full",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "<p>asdasdasd</p>",
+    "_id": "62136ccee3d6f509c9f2c19e",
+    "_parentId": "62136cc7e3d6f509c9f2c19d",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "flipcard",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "622876dce3d6f509c9f2c533",
+    "_parentId": "622876d3e3d6f509c9f2c532",
+    "_type": "component",
+    "_layout": "right"
+  },
+  {
+    "_component": "blank",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "622876e2e3d6f509c9f2c534",
+    "_parentId": "622876d3e3d6f509c9f2c532",
+    "_type": "component",
+    "_layout": "left"
+  },
+  {
+    "_component": "graphic",
+    "_classes": "imb",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "6261531ee3d6f509c9f2c805",
+    "_parentId": "61540dba4e98473e7dc5a8c7",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/a8550c5d0f3abaa77da854571f79bed2aa3f0839.webp",
+      "small": "course/en/assets/a8550c5d0f3abaa77da854571f79bed2aa3f0839.webp",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "slider",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Slider Test",
+    "displayTitle": "Slider Test",
+    "body": "<p>Dogs are better than cats</p>",
+    "_id": "627d2a79e3d6f509c9f2c8f1",
+    "_parentId": "627d2a6de3d6f509c9f2c8f0",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Use slider",
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_questionWeight": 1,
+    "_recordInteraction": true,
+    "labelStart": "YES",
+    "labelEnd": "NO",
+    "_scaleStart": 1,
+    "_scaleEnd": 2,
+    "_scaleStep": 1,
+    "_correctAnswer": "1",
+    "_correctRange": {
+      "_bottom": 0,
+      "_top": 0
+    },
+    "_showScaleIndicator": true,
+    "_showNumber": true,
+    "_showScale": true,
+    "_showScaleNumbers": true,
+    "_feedback": {
+      "title": "Feedback",
+      "correct": "<p>YAY</p>",
+      "_incorrect": {
+        "final": "<p>Nope</p>",
+        "notFinal": "<p>Nope</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  }
+]
